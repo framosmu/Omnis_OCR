@@ -1,0 +1,15 @@
+Calculate iUsuario as pUsername
+Calculate iPaso as pPassword
+Calculate iContent as pImagen
+
+Do iHeadersList.$define(iHeaderName,iHeaderValue)
+Do iHeadersList.$add("Content-Type","application/json")
+
+Calculate iURI as "http://www.ocrwebservice.com/restservices/processDocument?language=spanish&pagerange=allpages&tobw=true&gettext=true&newline=1"
+
+Do $cinst.$init(iURI,kOW3httpMethodPost,iHeadersList,iContent,kOW3httpAuthTypeBasic,iUsuario,iPaso) Returns lOk
+If not(lOk)
+	OK message {Error [$cinst.$errorcode]: [$cinst.$errortext]}
+	Quit method kFalse
+End If
+Do $cinst.$start() Returns lOk

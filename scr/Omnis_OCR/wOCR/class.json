@@ -1,0 +1,143 @@
+{
+	"classtype": "kWindow",
+	"omnisversion": "11.0",
+	"omnisbuild": 110036251,
+	"internalversion": 113,
+	"designtaskname": "Startup_Task",
+	"nextident": 1039,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iContraseña",
+			"order": 4,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"initval": "'<<password_https://www.ocrwebservice.com/>>'"
+		},
+		{
+			"name": "iDocuPath",
+			"order": 12,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iImagen",
+			"order": 15,
+			"type": "kBinary",
+			"subtype": 0,
+			"sublen": 0
+		},
+		{
+			"name": "iTexto",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iUsuario",
+			"order": 3,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000,
+			"initval": "'<<username_https://www.ocrwebservice.com/>>'"
+		},
+		{
+			"name": "oAPI",
+			"order": 1,
+			"type": "kObject",
+			"subtype": "oOCR",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"aligntogrid": false,
+		"alpha": 255,
+		"backcolor": "RGB(255,255,255)",
+		"backgroundskin": 0,
+		"backgroundskinalign": "kPALtopLeft",
+		"backgroundtheme": "kBGThemeNone",
+		"backpattern": 1,
+		"bringinfront": false,
+		"canremotedebugwhenlocked": false,
+		"clickbehind": true,
+		"closebox": true,
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componentinfo": {
+
+		},
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2024-04-14 09:35:06",
+		"desc": "",
+		"dockingedge": "kBorderChisel",
+		"dropmode": "kAcceptNone",
+		"edgefloat": "kEFnone",
+		"editor": "",
+		"editordata": "",
+		"effect": "kBorderNone",
+		"enablemenuandtoolbars": true,
+		"external": true,
+		"forecolor": "kColor3DFace",
+		"growbox": true,
+		"hasmenus": false,
+		"hasstatusbar": false,
+		"height": 654,
+		"helpbutton": false,
+		"helpfile": 0,
+		"horzgrid": 8,
+		"horzscroll": false,
+		"inheritedorder": 0,
+		"issubwindow": false,
+		"issupercomponent": false,
+		"keepclicks": true,
+		"left": 289,
+		"menuedge": "kBorderChisel",
+		"menunames": "",
+		"minheight": 0,
+		"minimizebox": false,
+		"minimizeiconid": 2006,
+		"minwidth": 0,
+		"moddate": "2024-05-07 10:35:00",
+		"modelessdata": true,
+		"movebehind": true,
+		"osdropflags": "kOSDROPnone",
+		"showascheckedout": false,
+		"showcommands": false,
+		"showgrid": false,
+		"showtitle": false,
+		"sizetogrid": false,
+		"startfield": 0,
+		"statusbarpos": "kSBPosBottom",
+		"statusedge": "kBorderChisel",
+		"style": "kTitle",
+		"title": "",
+		"toolbarnames": "",
+		"toolbaroptions": "kTBOptionNone",
+		"toolbarpos": "kDockingAreaNone",
+		"top": 70,
+		"userinfo": "",
+		"usesheets": false,
+		"vcsrevision": 0,
+		"version": "",
+		"vertgrid": 8,
+		"vertscroll": false,
+		"width": 1399,
+		"zoombox": false
+	},
+	"statusbar": {
+		"inherited": false,
+		"properties": {
+			"fieldstyle": "",
+			"font": 1,
+			"fontsize": 0,
+			"helppane": 0
+		}
+	}
+}

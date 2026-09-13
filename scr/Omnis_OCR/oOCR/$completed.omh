@@ -1,0 +1,9 @@
+Calculate iResponse as pRow
+Calculate iResponseHeaders as pRow.responseHeaders
+Do OJSON.$formatjson(pRow.responseContent) Returns iResponseChar
+Do OJSON.$jsontolistorrow(pRow.responseContent) Returns iResponseRow
+If not(isclear(iResponseRow.OCRText))
+	Do iCallingInst.$guardaTexto(iResponseRow.OCRText.___1.1.C1)
+Else
+	Do iCallingInst.$completed(iResponseRow)
+End If

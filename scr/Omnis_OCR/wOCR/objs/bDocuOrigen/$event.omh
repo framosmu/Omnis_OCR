@@ -1,0 +1,7 @@
+On evClick ## Event Parameters - pRow( Itemreference )
+	Do FileOps.$getfilename(iDocuPath,"Seleccione una imagen","*.png;*.jpg;*.jpeg") Returns lOK
+	If lOK
+		Do $cinst.$objs.docuOrigen.$redraw()
+		Do FileOps.$readfile(iDocuPath,iImagen)
+		Do $cinst.$objs.imagen.$redraw()
+	End If

@@ -1,0 +1,6 @@
+On evClick ## Event Parameters - pRow( Itemreference )
+	If not(isclear(iImagen))
+		Do oAPI.$setCallingInst($cinst)
+		Working message OCR (Do not auto close) {Procesando imagen...}
+		Do oAPI.$pasaOCR(iUsuario,iContraseña,iImagen)
+	End If
